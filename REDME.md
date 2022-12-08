@@ -7,14 +7,14 @@ Spring boot REST app with H2 database
 * `upload file` [/api/users/upload](http://localhost:8080/api/v1/users/upload)
 
 ### GET
-* `count users` [/api/users/count](http://localhost:8080/api/v1/users/count)
-* `get users by last name` [/users/name/{lastName}](http://localhost:8080/api/v1//users/name/{lastName})
-* `get users by id` [/api/users/{ids}](http://localhost:8080/api/v1/users/{ids})
-* `get all users ordered by age` [/api/users/sorted](http://localhost:8080/api/v1/users/sorted)
-* `get all users with pagination` [/api/users](http://localhost:8080/api/v1/users)
+* `count users` [/api/v1/users/count](http://localhost:8080/api/v1/users/count)
+* `get users by last name` [api/v1/users/name/{lastName}](http://localhost:8080/api/v1/users/name/{lastName})
+* `get users by id` [/api/v1/users/{ids}](http://localhost:8080/api/v1/users/{ids})
+* `get all users ordered by age` [/api/v1/users/sorted](http://localhost:8080/api/v1/users/sorted)
+* `get all users with pagination` [/api/v1/users](http://localhost:8080/api/v1/users)
 
 ### DELETE
-* `delete users by id` [/api/users/{ids}](http://localhost:8080/api/v1/users/{ids})
+* `delete users by id` [/api/v1/users/{ids}](http://localhost:8080/api/v1/users/{ids})
 
 ## Example valid CSV file
 
