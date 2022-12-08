@@ -28,3 +28,12 @@ Zygmunt,       Stefanowicz,1991.06.01,
 Ernest,Gąbka,1991.06.01,
 Elzbieta,Zółw,1988.03.03,670540123
 ```
+
+**Parameters**
+
+|          Name | Required | Unique | Description                        |
+| -------------:|:--------:|:------:|------------------------------------|
+|    `first_name` | required |   no   | User name                          |
+|    `last_name` | required |   no   | User last name                     |
+|    `birth_date` | required |   no   | Date of birth in format yyyy.MM.dd |
+|    `phone_no` | optional |  yes   | Nine digits phone number allowed   |
